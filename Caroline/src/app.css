@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', -apple-system , BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+.blur_purple1 {
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 0.57) 0%, rgba(0, 0, 0, 0) 57%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 0.57) 0%, rgba(0, 0, 0, 0) 57%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 0.57) 0%, rgba(0, 0, 0, 0) 57%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 0.57) 0%, rgba(0, 0, 0, 0) 57%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 50% 50%, rgba(238, 130, 238, 0.57) 0%, rgba(0, 0, 0, 0) 57%);
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+  
+    .blur_purple2 {
+      background: #831ED2;
+      opacity: 0.9;
+      filter: blur(50px);
+    
+    }
+  
+    .blur_purple1 {
+      background: #831ED2;
+      opacity: 1;
+      filter: blur(80px);
+    
+    }
+  }
+
+  
