@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.88",
 		"@sveltejs/kit": "^1.5.0",
 		"autoprefixer": "^10.4.13",
 		"eslint": "^8.28.0",
@@ -30,6 +31,10 @@
 	"type": "module",
 	"dependencies": {
 		"@notionhq/client": "^2.2.3",
+		"@popperjs/core": "^2.11.6",
+		"classnames": "^2.3.2",
+		"flowbite": "^1.6.3",
+		"flowbite-svelte": "^0.30.6",
 		"svelte-hamburgers": "^4.0.1",
 		"svelte-icons-pack": "^2.0.0"
 	}
